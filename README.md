@@ -10,7 +10,7 @@ theme: jekyll-theme-minimal
   </main>
 
   <footer>
-    <p>(https://baileystern.github.io)</p>
+    <p>bpstern@smu.edu</p>
   </footer>
 </body>
 
