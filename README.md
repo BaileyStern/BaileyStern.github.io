@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<head>
-Bailey's Portfolio
-</head>
+theme: jekyll-theme-minimal
+
 <body>
   <header>
     <h1>Bailey's Portfolio</h1>
@@ -15,4 +13,4 @@ Bailey's Portfolio
     <p>(https://baileystern.github.io)</p>
   </footer>
 </body>
-</html>
+
