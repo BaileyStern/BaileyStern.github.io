@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Bailey's Portfolio</title>
+Bailey's Portfolio
 </head>
 <body>
   <header>
