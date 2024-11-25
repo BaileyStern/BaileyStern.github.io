@@ -18,23 +18,22 @@
 <h2>P5 Art Graphic</h2>
 <script>
   
-function setup() { createCanvas(1000, 1000); //1000x1000 square canvas background(225); //white background }
+let headColor, neckColor, hairColor, hairClipColor, eyebrowColor, eyeColor, pupilColor, noseColor, mouthColor, teethColor;
 
-void setup() {
-size(600, 600);
+function setup() {
+createCanvas(600, 600); 
 background(209, 250, 250);
+headColor = color(238, 198, 181);
+neckColor = color(238, 198, 181);
+hairColor = color(249, 209, 116);
+hairClipColor = color(238, 166, 235);
+eyebrowColor = color(87, 60, 14);
+eyeColor = color(255);
+pupilColor = color(0);
+noseColor = color(238, 198, 181);
+mouthColor = color(209, 92, 115);
+teethColor = color(255);
 }
-
-color headColor = color(238, 198, 181);
-color neckColor = color(238, 198, 181);
-color hairColor = color(249, 209, 116);
-color hairClipColor = color(238, 166, 235);
-color eyebrowColor = color(87, 60, 14);
-color eyeColor = color(255);
-color pupilColor = color(0);
-color noseColor = color(238, 198, 181);
-color mouthColor = color(209, 92, 115);
-color teethColor = color(255);
 
 function mouseClicked() {
 headColor = color(random(255), random(255), random(255));
@@ -50,40 +49,40 @@ teethColor = color(random(255), random(255), random(255));
 }
 
 function draw() {
-background(209, 250, 250);
+background(209, 250, 250); // Reset background
 fill(headColor);
 noStroke();
-circle(300, 300, 400); 
+circle(300, 300, 400);
 fill(neckColor);
-rect(222, 469, 150, 100); 
+rect(222, 469, 150, 100);
 fill(hairColor);
 noStroke();
-ellipse(300, 150, 400, 150); 
-ellipse(100, 400, 150, 500); 
-ellipse(500, 400, 150, 500); 
+ellipse(300, 150, 400, 150);
+ellipse(100, 400, 150, 500);
+ellipse(500, 400, 150, 500);
 fill(hairClipColor);
 stroke(209, 250, 250);
-triangle(140, 152, 134, 211, 73, 178); 
-triangle(451, 152, 463, 211, 510, 178); 
+triangle(140, 152, 134, 211, 73, 178);
+triangle(451, 152, 463, 211, 510, 178);
 fill(eyebrowColor);
 stroke(255, 50, 0);
-rect(330, 273, 90, 15); 
-rect(180, 273, 90, 15); 
+rect(330, 273, 90, 15);
+rect(180, 273, 90, 15);
 fill(eyeColor);
 stroke(0);
-circle(230, 320, 40); 
-circle(369, 320, 40); 
+circle(230, 320, 40);
+circle(369, 320, 40);
 fill(pupilColor);
 stroke(87, 60, 14);
-circle(230, 320, 20); 
-circle(369, 320, 20); 
+circle(230, 320, 20);
+circle(369, 320, 20);
 fill(noseColor);
-triangle(300, 322, 285, 403, 315, 403); 
+triangle(300, 322, 285, 403, 315, 403);
 fill(mouthColor);
 noStroke();
-triangle(230, 423, 300, 470, 300, 439); 
-triangle(360, 423, 300, 470, 300, 439); 
+triangle(230, 423, 300, 470, 300, 439);
+triangle(360, 423, 300, 470, 300, 439);
 stroke(255, 255, 255);
-line(232, 425, 298, 453); 
-line(299, 455, 355, 426); 
+line(232, 425, 298, 453);
+line(299, 455, 355, 426);
 }
