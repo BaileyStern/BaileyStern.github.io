@@ -15,6 +15,9 @@
   </footer>
 </body>
 
+<h2>P5 Art Graphic</h2>
+<script>
+  
 function setup() { createCanvas(1000, 1000); //1000x1000 square canvas background(225); //white background }
 
 void setup() {
