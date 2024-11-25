@@ -33,7 +33,7 @@ color noseColor = color(238, 198, 181);
 color mouthColor = color(209, 92, 115);
 color teethColor = color(255);
 
-void mouseClicked() {
+function mouseClicked() {
 headColor = color(random(255), random(255), random(255));
 neckColor = color(random(255), random(255), random(255));
 hairColor = color(random(255), random(255), random(255));
@@ -46,7 +46,7 @@ mouthColor = color(random(255), random(255), random(255));
 teethColor = color(random(255), random(255), random(255));
 }
 
-void draw() {
+function draw() {
 background(209, 250, 250);
 fill(headColor);
 noStroke();
