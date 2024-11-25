@@ -20,25 +20,13 @@
   </footer>
 </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <h2>P5 Art Graphic</h2>
 <script>
   
 let headColor, neckColor, hairColor, hairClipColor, eyebrowColor, eyeColor, pupilColor, noseColor, mouthColor, teethColor;
 
 function setup() {
-createCanvas(600, 600); 
+createCanvas(600, 600).center();
 background(209, 250, 250);
 headColor = color(238, 198, 181);
 neckColor = color(238, 198, 181);
