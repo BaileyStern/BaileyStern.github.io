@@ -54,7 +54,7 @@ teethColor = color(random(255), random(255), random(255));
 }
 
 function draw() {
-background(209, 250, 250); // Reset background
+background(255, 255, 255);
 fill(headColor);
 noStroke();
 circle(300, 300, 400);
