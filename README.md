@@ -20,7 +20,7 @@
   </footer>
 </body>
 
-<h2>P5 Art Graphic</h2>
+<h2> <--- P5 Art Graphic</h2>
 <script>
   
 let headColor, neckColor, hairColor, hairClipColor, eyebrowColor, eyeColor, pupilColor, noseColor, mouthColor, teethColor;
